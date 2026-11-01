@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       device:
-        description: '目标设备代号 (e.g. sheng, fuxi, cupid, mondrian)'
+        description: 'ruby'
         required: true
         type: string
       source:
